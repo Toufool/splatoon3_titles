@@ -34,7 +34,7 @@ def dump_titles(titles, sort=True):
             f.write(f"{title}\n")
 
 def main():
-    url = "https://raw.githubusercontent.com/Leanny/leanny.github.io/fbf78ab78924b8687e65a47a596c328a12ce8230/splat3/data/language/USen.json"
+    url = "https://raw.githubusercontent.com/Leanny/leanny.github.io/master/splat3/data/language/USen.json"
     data = get_data(url)
     adjectives = get_adjectives(data)
     subjects = get_subjects(data)
